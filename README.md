@@ -23,10 +23,10 @@ This is a small project I created as part of a Web Design course at my universit
   - Contact
 
 # 🌐 Technologies Used
-• HTML for structure
+• HTML for page structure
 
-• CSS for styling
+• CSS for styling and layout, including media queries for responsive design
 
-• JavaScript (basic) for interactivity
+• JavaScript (basic) for simple interactive behavior
 
 
