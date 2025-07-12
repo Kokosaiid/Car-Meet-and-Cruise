@@ -8,17 +8,17 @@ This is a small project I created as part of a Web Design course at my universit
 
 • Navigation Bar: Includes links to:
 
-  • Home
+  - Home
 
-  • About
+  - About
 
-  • Gallery
+  - Gallery
 
-  • News
+  - News
 
-  • Events
+  - Events
 
-  • Contact
+  - Contact
 
 # 🌐 Technologies Used
 • HTML for structure
