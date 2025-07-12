@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Car Meet & Cruise</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div
+        class="container-fluid d-flex justify-content-between align-items-center nav__box-shadow"
+      >
+        <h1><a class="navbar-brand" href="index.html">Car Meet & Cruise</a></h1>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <figure>
+        <a href="#contact-form">
+          <video
+            loop=""
+            autoplay=""
+            src="images/Car_meet-video-960x540px.mp4"
+            width="100%"
+          ></video>
+        </a>
+      </figure>
+    </section>
+
+    <main class="main">
+      <form id="contact-form">
+        <fieldset class="contact__fieldset">
+          <p class="contact__p">
+            <label class="contact__label" for="name">Full Name:</label>
+            <input
+              class="contact__input"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Type your name"
+              required
+            />
+            <small class="contact__feedback" id="name-feedback"></small>
+          </p>
+
+          <p class="contact__p">
+            <label class="contact__label" for="email">Email:</label>
+            <input
+              class="contact__input"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@gmail.com"
+              required
+            />
+            <small class="contact__feedback" id="email-feedback"></small>
+          </p>
+
+          <p class="contact__p">
+            <label class="contact__label" for="phone">Phone Number:</label>
+          </p>
+
+          <div class="contact__phone-group">
+            <select
+              id="country-code"
+              name="country-code"
+              class="contact__select"
+            >
+              <option value="+93" data-label="Afghanistan">
+                Afghanistan (+93)
+              </option>
+              <option value="+355" data-label="Albania">Albania (+355)</option>
+              <option value="+213" data-label="Algeria">Algeria (+213)</option>
+              <option value="+376" data-label="Andorra">Andorra (+376)</option>
+              <option value="+244" data-label="Angola">Angola (+244)</option>
+              <option value="+1-264" data-label="Anguilla">
+                Anguilla (+1-264)
+              </option>
+              <option value="+672" data-label="Antarctica">
+                Antarctica (+672)
+              </option>
+              <option value="+1-268" data-label="Antigua and Barbuda">
+                Antigua and Barbuda (+1-268)
+              </option>
+              <option value="+54" data-label="Argentina">
+                Argentina (+54)
+              </option>
+              <option value="+374" data-label="Armenia">Armenia (+374)</option>
+              <option value="+297" data-label="Aruba">Aruba (+297)</option>
+              <option value="+61" data-label="Australia">
+                Australia (+61)
+              </option>
+              <option value="+43" data-label="Austria">Austria (+43)</option>
+              <option value="+994" data-label="Azerbaijan">
+                Azerbaijan (+994)
+              </option>
+              <option value="+973" data-label="Bahrain">Bahrain (+973)</option>
+              <option value="+880" data-label="Bangladesh">
+                Bangladesh (+880)
+              </option>
+              <option value="+1-246" data-label="Barbados">
+                Barbados (+1-246)
+              </option>
+              <option value="+375" data-label="Belarus">Belarus (+375)</option>
+              <option value="+32" data-label="Belgium">Belgium (+32)</option>
+              <option value="+501" data-label="Belize">Belize (+501)</option>
+              <option value="+229" data-label="Benin">Benin (+229)</option>
+              <option value="+975" data-label="Bhutan">Bhutan (+975)</option>
+              <option value="+591" data-label="Bolivia">Bolivia (+591)</option>
+              <option value="+387" data-label="Bosnia and Herzegovina">
+                Bosnia and Herzegovina (+387)
+              </option>
+              <option value="+267" data-label="Botswana">
+                Botswana (+267)
+              </option>
+              <option value="+55" data-label="Brazil">Brazil (+55)</option>
+              <option value="+673" data-label="Brunei">Brunei (+673)</option>
+              <option value="+359" data-label="Bulgaria">
+                Bulgaria (+359)
+              </option>
+              <option value="+226" data-label="Burkina Faso">
+                Burkina Faso (+226)
+              </option>
+              <option value="+257" data-label="Burundi">Burundi (+257)</option>
+              <option value="+855" data-label="Cambodia">
+                Cambodia (+855)
+              </option>
+              <option value="+237" data-label="Cameroon">
+                Cameroon (+237)
+              </option>
+              <option value="+1" data-label="Canada">Canada (+1)</option>
+              <option value="+238" data-label="Cape Verde">
+                Cape Verde (+238)
+              </option>
+              <option value="+236" data-label="Central African Republic">
+                Central African Republic (+236)
+              </option>
+              <option value="+235" data-label="Chad">Chad (+235)</option>
+              <option value="+56" data-label="Chile">Chile (+56)</option>
+              <option value="+86" data-label="China">China (+86)</option>
+              <option value="+57" data-label="Colombia">Colombia (+57)</option>
+              <option value="+269" data-label="Comoros">Comoros (+269)</option>
+              <option value="+242" data-label="Congo">Congo (+242)</option>
+              <option value="+243" data-label="Congo (Democratic Republic)">
+                Congo (DRC) (+243)
+              </option>
+              <option value="+506" data-label="Costa Rica">
+                Costa Rica (+506)
+              </option>
+              <option value="+385" data-label="Croatia">Croatia (+385)</option>
+              <option value="+53" data-label="Cuba">Cuba (+53)</option>
+              <option value="+357" data-label="Cyprus">Cyprus (+357)</option>
+              <option value="+420" data-label="Czech Republic">
+                Czech Republic (+420)
+              </option>
+              <option value="+45" data-label="Denmark">Denmark (+45)</option>
+              <option value="+253" data-label="Djibouti">
+                Djibouti (+253)
+              </option>
+              <option value="+1-767" data-label="Dominica">
+                Dominica (+1-767)
+              </option>
+              <option value="+1-809" data-label="Dominican Republic">
+                Dominican Republic (+1-809)
+              </option>
+              <option value="+593" data-label="Ecuador">Ecuador (+593)</option>
+              <option value="+20" data-label="Egypt">Egypt (+20)</option>
+              <option value="+503" data-label="El Salvador">
+                El Salvador (+503)
+              </option>
+              <option value="+240" data-label="Equatorial Guinea">
+                Equatorial Guinea (+240)
+              </option>
+              <option value="+291" data-label="Eritrea">Eritrea (+291)</option>
+              <option value="+372" data-label="Estonia">Estonia (+372)</option>
+              <option value="+251" data-label="Ethiopia">
+                Ethiopia (+251)
+              </option>
+              <option value="+679" data-label="Fiji">Fiji (+679)</option>
+              <option value="+358" data-label="Finland">Finland (+358)</option>
+              <option value="+33" data-label="France">France (+33)</option>
+              <option value="+241" data-label="Gabon">Gabon (+241)</option>
+              <option value="+220" data-label="Gambia">Gambia (+220)</option>
+              <option value="+995" data-label="Georgia">Georgia (+995)</option>
+              <option value="+49" data-label="Germany">Germany (+49)</option>
+              <option value="+233" data-label="Ghana">Ghana (+233)</option>
+              <option value="+30" data-label="Greece">Greece (+30)</option>
+              <option value="+502" data-label="Guatemala">
+                Guatemala (+502)
+              </option>
+              <option value="+224" data-label="Guinea">Guinea (+224)</option>
+              <option value="+245" data-label="Guinea-Bissau">
+                Guinea-Bissau (+245)
+              </option>
+              <option value="+592" data-label="Guyana">Guyana (+592)</option>
+              <option value="+509" data-label="Haiti">Haiti (+509)</option>
+              <option value="+504" data-label="Honduras">
+                Honduras (+504)
+              </option>
+              <option value="+36" data-label="Hungary">Hungary (+36)</option>
+              <option value="+354" data-label="Iceland">Iceland (+354)</option>
+              <option value="+91" data-label="India">India (+91)</option>
+              <option value="+62" data-label="Indonesia">
+                Indonesia (+62)
+              </option>
+              <option value="+98" data-label="Iran">Iran (+98)</option>
+              <option value="+964" data-label="Iraq">Iraq (+964)</option>
+              <option value="+353" data-label="Ireland">Ireland (+353)</option>
+              <option value="+972" data-label="Israel">Israel (+972)</option>
+              <option value="+39" data-label="Italy">Italy (+39)</option>
+              <option value="+1-876" data-label="Jamaica">
+                Jamaica (+1-876)
+              </option>
+              <option value="+81" data-label="Japan">Japan (+81)</option>
+              <option value="+962" data-label="Jordan">Jordan (+962)</option>
+              <option value="+7" data-label="Kazakhstan">
+                Kazakhstan (+7)
+              </option>
+              <option value="+254" data-label="Kenya">Kenya (+254)</option>
+              <option value="+965" data-label="Kuwait">Kuwait (+965)</option>
+              <option value="+996" data-label="Kyrgyzstan">
+                Kyrgyzstan (+996)
+              </option>
+              <option value="+856" data-label="Laos">Laos (+856)</option>
+              <option value="+371" data-label="Latvia">Latvia (+371)</option>
+              <option value="+961" data-label="Lebanon">Lebanon (+961)</option>
+              <option value="+266" data-label="Lesotho">Lesotho (+266)</option>
+              <option value="+231" data-label="Liberia">Liberia (+231)</option>
+              <option value="+218" data-label="Libya">Libya (+218)</option>
+              <option value="+423" data-label="Liechtenstein">
+                Liechtenstein (+423)
+              </option>
+              <option value="+370" data-label="Lithuania">
+                Lithuania (+370)
+              </option>
+              <option value="+352" data-label="Luxembourg">
+                Luxembourg (+352)
+              </option>
+              <option value="+853" data-label="Macau">Macau (+853)</option>
+              <option value="+389" data-label="North Macedonia">
+                North Macedonia (+389)
+              </option>
+              <option value="+261" data-label="Madagascar">
+                Madagascar (+261)
+              </option>
+              <option value="+265" data-label="Malawi">Malawi (+265)</option>
+              <option value="+60" data-label="Malaysia">Malaysia (+60)</option>
+              <option value="+960" data-label="Maldives">
+                Maldives (+960)
+              </option>
+              <option value="+223" data-label="Mali">Mali (+223)</option>
+              <option value="+356" data-label="Malta">Malta (+356)</option>
+              <option value="+692" data-label="Marshall Islands">
+                Marshall Islands (+692)
+              </option>
+              <option value="+222" data-label="Mauritania">
+                Mauritania (+222)
+              </option>
+              <option value="+230" data-label="Mauritius">
+                Mauritius (+230)
+              </option>
+              <option value="+52" data-label="Mexico">Mexico (+52)</option>
+              <option value="+691" data-label="Micronesia">
+                Micronesia (+691)
+              </option>
+              <option value="+373" data-label="Moldova">Moldova (+373)</option>
+              <option value="+377" data-label="Monaco">Monaco (+377)</option>
+              <option value="+976" data-label="Mongolia">
+                Mongolia (+976)
+              </option>
+              <option value="+382" data-label="Montenegro">
+                Montenegro (+382)
+              </option>
+              <option value="+212" data-label="Morocco">Morocco (+212)</option>
+              <option value="+258" data-label="Mozambique">
+                Mozambique (+258)
+              </option>
+              <option value="+95" data-label="Myanmar (Burma)">
+                Myanmar (+95)
+              </option>
+              <option value="+264" data-label="Namibia">Namibia (+264)</option>
+              <option value="+674" data-label="Nauru">Nauru (+674)</option>
+              <option value="+977" data-label="Nepal">Nepal (+977)</option>
+              <option value="+31" data-label="Netherlands">
+                Netherlands (+31)
+              </option>
+              <option value="+687" data-label="New Caledonia">
+                New Caledonia (+687)
+              </option>
+              <option value="+64" data-label="New Zealand">
+                New Zealand (+64)
+              </option>
+              <option value="+505" data-label="Nicaragua">
+                Nicaragua (+505)
+              </option>
+              <option value="+227" data-label="Niger">Niger (+227)</option>
+              <option value="+234" data-label="Nigeria">Nigeria (+234)</option>
+              <option value="+683" data-label="Niue">Niue (+683)</option>
+              <option value="+850" data-label="North Korea">
+                North Korea (+850)
+              </option>
+              <option value="+47" data-label="Norway">Norway (+47)</option>
+              <option value="+968" data-label="Oman">Oman (+968)</option>
+              <option value="+92" data-label="Pakistan">Pakistan (+92)</option>
+              <option value="+680" data-label="Palau">Palau (+680)</option>
+              <option value="+970" data-label="Palestine">
+                Palestine (+970)
+              </option>
+              <option value="+507" data-label="Panama">Panama (+507)</option>
+              <option value="+675" data-label="Papua New Guinea">
+                Papua New Guinea (+675)
+              </option>
+              <option value="+595" data-label="Paraguay">
+                Paraguay (+595)
+              </option>
+              <option value="+51" data-label="Peru">Peru (+51)</option>
+              <option value="+63" data-label="Philippines">
+                Philippines (+63)
+              </option>
+              <option value="+48" data-label="Poland">Poland (+48)</option>
+              <option value="+351" data-label="Portugal">
+                Portugal (+351)
+              </option>
+              <option value="+1-787" data-label="Puerto Rico">
+                Puerto Rico (+1-787)
+              </option>
+              <option value="+974" data-label="Qatar">Qatar (+974)</option>
+              <option value="+40" data-label="Romania">Romania (+40)</option>
+              <option value="+7" data-label="Russia">Russia (+7)</option>
+              <option value="+250" data-label="Rwanda">Rwanda (+250)</option>
+              <option value="+1-869" data-label="Saint Kitts and Nevis">
+                Saint Kitts and Nevis (+1-869)
+              </option>
+              <option value="+1-758" data-label="Saint Lucia">
+                Saint Lucia (+1-758)
+              </option>
+              <option value="+508" data-label="Saint Pierre and Miquelon">
+                Saint Pierre and Miquelon (+508)
+              </option>
+              <option
+                value="+1-784"
+                data-label="Saint Vincent and the Grenadines"
+              >
+                Saint Vincent and the Grenadines (+1-784)
+              </option>
+              <option value="+685" data-label="Samoa">Samoa (+685)</option>
+              <option value="+378" data-label="San Marino">
+                San Marino (+378)
+              </option>
+              <option value="+239" data-label="Sao Tome and Principe">
+                Sao Tome and Principe (+239)
+              </option>
+              <option value="+966" data-label="Saudi Arabia">
+                Saudi Arabia (+966)
+              </option>
+              <option value="+221" data-label="Senegal">Senegal (+221)</option>
+              <option value="+381" data-label="Serbia">Serbia (+381)</option>
+              <option value="+248" data-label="Seychelles">
+                Seychelles (+248)
+              </option>
+              <option value="+232" data-label="Sierra Leone">
+                Sierra Leone (+232)
+              </option>
+              <option value="+65" data-label="Singapore">
+                Singapore (+65)
+              </option>
+              <option value="+421" data-label="Slovakia">
+                Slovakia (+421)
+              </option>
+              <option value="+386" data-label="Slovenia">
+                Slovenia (+386)
+              </option>
+              <option value="+677" data-label="Solomon Islands">
+                Solomon Islands (+677)
+              </option>
+              <option value="+252" data-label="Somalia">Somalia (+252)</option>
+              <option value="+27" data-label="South Africa">
+                South Africa (+27)
+              </option>
+              <option value="+82" data-label="South Korea">
+                South Korea (+82)
+              </option>
+              <option value="+211" data-label="South Sudan">
+                South Sudan (+211)
+              </option>
+              <option value="+34" data-label="Spain">Spain (+34)</option>
+              <option value="+94" data-label="Sri Lanka">
+                Sri Lanka (+94)
+              </option>
+              <option value="+249" data-label="Sudan">Sudan (+249)</option>
+              <option value="+597" data-label="Suriname">
+                Suriname (+597)
+              </option>
+              <option value="+268" data-label="Eswatini">
+                Eswatini (+268)
+              </option>
+              <option value="+46" data-label="Sweden">Sweden (+46)</option>
+              <option value="+41" data-label="Switzerland">
+                Switzerland (+41)
+              </option>
+              <option value="+963" data-label="Syria">Syria (+963)</option>
+              <option value="+886" data-label="Taiwan">Taiwan (+886)</option>
+              <option value="+992" data-label="Tajikistan">
+                Tajikistan (+992)
+              </option>
+              <option value="+255" data-label="Tanzania">
+                Tanzania (+255)
+              </option>
+              <option value="+66" data-label="Thailand">Thailand (+66)</option>
+              <option value="+228" data-label="Togo">Togo (+228)</option>
+              <option value="+676" data-label="Tonga">Tonga (+676)</option>
+              <option value="+1-868" data-label="Trinidad and Tobago">
+                Trinidad and Tobago (+1-868)
+              </option>
+              <option value="+216" data-label="Tunisia">Tunisia (+216)</option>
+              <option value="+90" data-label="Turkey">Turkey (+90)</option>
+              <option value="+993" data-label="Turkmenistan">
+                Turkmenistan (+993)
+              </option>
+              <option value="+688" data-label="Tuvalu">Tuvalu (+688)</option>
+              <option value="+256" data-label="Uganda">Uganda (+256)</option>
+              <option value="+380" data-label="Ukraine">Ukraine (+380)</option>
+              <option value="+971" data-label="United Arab Emirates">
+                United Arab Emirates (+971)
+              </option>
+              <option value="+44" data-label="United Kingdom">
+                United Kingdom (+44)
+              </option>
+              <option value="+1" data-label="United States">
+                United States (+1)
+              </option>
+              <option value="+598" data-label="Uruguay">Uruguay (+598)</option>
+              <option value="+998" data-label="Uzbekistan">
+                Uzbekistan (+998)
+              </option>
+              <option value="+678" data-label="Vanuatu">Vanuatu (+678)</option>
+              <option value="+58" data-label="Venezuela">
+                Venezuela (+58)
+              </option>
+              <option value="+84" data-label="Vietnam">Vietnam (+84)</option>
+              <option value="+967" data-label="Yemen">Yemen (+967)</option>
+              <option value="+260" data-label="Zambia">Zambia (+260)</option>
+              <option value="+263" data-label="Zimbabwe">
+                Zimbabwe (+263)
+              </option>
+            </select>
+
+            <input
+              class="contact__input"
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="e.g. 123456789"
+              required
+            />
+          </div>
+          <small class="contact__feedback" id="phone-feedback"></small>
+
+          <p class="contact__p">
+            <label class="contact__label" for="message">Message:</label>
+            <textarea
+              class="contact__textarea"
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Type your message here"
+            ></textarea>
+          </p>
+
+          <button
+            class="contact__button btn btn-outline-light px-4 py-2"
+            type="submit"
+          >
+            Send
+          </button>
+        </fieldset>
+      </form>
+    </main>
+
+    <section class="dom-demo text-center my-4">
+      <button id="toggle-btn" class="btn btn-secondary m-2">
+        Toggle Message
+      </button>
+      <button id="change-text-btn" class="btn btn-secondary m-2">
+        Example Message
+      </button>
+      <button id="bg-toggle-btn" class="btn btn-secondary m-2">
+        Toggle Dark Background
+      </button>
+
+      <div id="toggle-box" class="my-3">
+        Life's a journey, enjoy the ride 🤪🚗
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>
+        <span class="nowrap">Copyright &copy; 2025 </span>
+        <span class="nowrap">Car Meet & Cruise</span>
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
+      integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
