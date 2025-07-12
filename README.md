@@ -7,6 +7,7 @@ This is a small project I created as part of a Web Design course at my universit
 • Contact Us Page: Contains a car video – clicking it smoothly scrolls the page down to a sign-up form.
 
 • Navigation Bar: Includes links to:
+
   • Home
 
   • About
